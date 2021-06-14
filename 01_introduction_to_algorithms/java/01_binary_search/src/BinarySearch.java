@@ -1,6 +1,6 @@
 public class BinarySearch {
 
-    // has to return boxed integer in order to comfort to interface defined in the book
+    //必须返回装箱整数以适应书中定义的接口
     private static Integer binarySearch(int[] list, int item) {
         int low = 0;
         int high = list.length - 1;
